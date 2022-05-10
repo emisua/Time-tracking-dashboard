@@ -18,11 +18,12 @@ module.exports = {
   },
   "plugins": [ 'react' ],
   "rules": {
-    'semi': [ 'error', 'always' ],
     'object-curly-spacing': [ 'error', 'always' ],
     'array-bracket-spacing': [ 'error', 'always' ],
     'eqeqeq': [ 'error', 'smart' ],
     'quote-props': [ 'error', 'always' ],
-    'no-multiple-empty-lines': [ 'error', { "max": 1 } ]
+    'no-multiple-empty-lines': [ 'error', { "max": 1 } ],
+    "react/jsx-uses-react": "error",
+    "react/prop-types": "off"
   }
 };
