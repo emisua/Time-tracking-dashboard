@@ -1,6 +1,6 @@
 {
   "name": "Time tracking dashboard",
-  "homepage": "https://emisua.github.io/Time-tracking-dashboard",
+  "homepage": "https://emisua.github.io/Time-tracking-dashboard/",
   "private": false,
   "version": "0.1",
   "scripts": {
@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d build -b main",
     "format": "prettier --write .",
     "lint": "eslint --fix . --ext .js,.jsx",
     "check": "npm-check",
